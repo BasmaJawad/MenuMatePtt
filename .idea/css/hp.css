@@ -1,0 +1,107 @@
+#imgContainer{
+    display: grid;
+    grid-template-columns: 1fr; /*fr = fraction*/
+    justify-items: center;
+    align-items: start;
+    height: 100vh; /*vh = viewport height*/
+
+}
+
+#imgContainer img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+header{
+    color: white;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+#landingpageContainer{
+    position: absolute;
+}
+
+#textContainer {
+    width: 60%;
+    position: absolute;
+    left: 30%; /* adjust to position on the right */
+    top: 50%;
+    text-align: center;
+    animation: slideIn 1s;
+    margin-top: -13rem; /* add negative margin-top value */
+}
+
+@media (max-width: 768px) {
+    /* Adjust the position and size of the header element on smaller screens */
+    #textContainer {
+        top: 20%;
+    }
+}
+
+#BigTitle {
+    color: #fdf4f4;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: -2px 2px 8px rgba(0,0,0,0.3);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%); /* adjust to slide in from right */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#frontBtn{
+    background-color: #ffe6bd;
+
+    font-family: Avenir;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute; /* change to absolute */
+    right: 35%; /* adjust left position */
+    top: 55%; /* adjust top position */
+    z-index: 2; /* add higher z-index value */
+    animation:  beat 1s infinite alternate;
+    box-shadow: -2px 2px 8px rgba(0,0,0,0.3);
+
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#frontBtn a{
+    text-decoration: none;
+    color: #a1593a;
+}
+
+#containter2{
+    width: 100%;
+    background-color: #f8f4ee;
+    height: 30rem;
+    position: absolute;
+    top: 90%;
+}
+

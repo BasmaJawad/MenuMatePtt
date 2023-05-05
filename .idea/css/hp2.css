@@ -1,0 +1,17 @@
+
+#imgContainer{
+    display: grid;
+    grid-template-columns: 1fr; /*fr = fraction*/
+    justify-items: center;
+    align-items: start;
+    height: 100vh; /*vh = viewport height*/
+    margin-top: 8rem;
+
+}
+#imgContainer img {
+
+    border-radius: 0.8rem;
+    width: 88%;
+    height: auto;
+
+}

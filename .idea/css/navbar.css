@@ -1,0 +1,90 @@
+/* Style the header element */
+
+body{
+    margin: 0;
+    font-family: Baloo Bhaijaan, sans-serif;
+    font-weight: bold;
+    color: #01041e;
+    background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
+    background-repeat: repeat;
+    background-size: 400px;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    max-width: 1200px; /* Limit the maximum width of the header element */
+    margin: 0 auto; /* Center the element horizontally */
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    /* Adjust the position and size of the header element on smaller screens */
+    header {
+        top: 50px;
+        height: 60px;
+    }
+}
+
+
+/* Style the wrapper div inside the header element */
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the logo element */
+header #logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+/* Style the nav element */
+header nav {
+    display: flex;
+}
+
+/* Style the ul element inside the nav element */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+}
+
+/* Style the li elements inside the ul element */
+header nav li {
+    margin-left: 5rem;
+    font-size: 1.3rem;
+
+}
+
+/* Style the a elements inside the li elements */
+header nav li a {
+    text-decoration: none;
+    color: #01041e;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Set the logo font-size to 20px */
+    header #logo {
+        font-size: 20px;
+    }
+
+    /* Set the margin-left property for the li elements to 0 */
+    header nav li {
+        margin-left: 0;
+    }
+}
+header nav li a:hover {
+    color: #712eb2;
+
+}
