@@ -3,22 +3,25 @@
 body{
     margin: 0;
     font-family: Baloo Bhaijaan, sans-serif;
-    font-weight: bold;
+
     color: #01041e;
     background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
     background-repeat: repeat;
     background-size: 400px;
 }
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
-    max-width: 1200px; /* Limit the maximum width of the header element */
-    margin: 0 auto; /* Center the element horizontally */
-    margin-top: 2rem;
+    z-index: 2;
+    width: 100%;
     padding: 1rem;
+    background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/63733481369bfa6ae42fa610_Transparent-Texture.webp);
+    backdrop-filter: blur(20px);
+
+    -webkit-backdrop-filter: blur(20px);
+
 }
 
 @media (max-width: 768px) {
@@ -41,7 +44,7 @@ header .wrapper {
 
 /* Style the logo element */
 header #logo {
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
 }
 
