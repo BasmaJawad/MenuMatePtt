@@ -1,5 +1,5 @@
 
-#imgContainer{
+#imgContainer {
     display: grid;
     grid-template-columns: 1fr; /*fr = fraction*/
     justify-items: center;
@@ -7,6 +7,7 @@
     margin-top: 7rem;
 
 }
+
 #imgContainer img {
     border-radius: 0.7rem;
     width: 90%;
@@ -17,11 +18,12 @@
 }
 
 
-#frontImgWrapper{
+#frontImgWrapper {
     position: relative;
     display: inline-block;
 }
-#imgTitle{
+
+#imgTitle {
     position: absolute;
     top: 38%;
     left: 21%;
@@ -36,8 +38,9 @@
     animation: slideIn 1s;
 }
 
-#text-frontImg{
-position: absolute;
+#text-frontImg {
+    position: absolute;
+
     top: 70%;
     left: 21%;
     transform: translate(-29%, -70%);
@@ -63,4 +66,149 @@ position: absolute;
         left: 13%;
     }
 }
+
+#secondSectionWrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+#secondSectionImgContainer {
+
+}
+
+#secondSectionWrapper h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#menuAndPhone {
+    width: 50vw;
+    height: auto;
+}
+.bulletPoint{
+    margin-right: 5rem;
+}
+
+.bulletPoint p {
+    font-size: 1.2vw;
+
+}
+
+.bulletPoint i {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#text-2section {
+    flex: 2;
+    margin-top: 2rem;
+    padding-right: 3rem;
+}
+
+#section3Wrapper {
+    padding: 3rem;
+padding-right: 1rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(to right, rgba(20, 20, 114, 0.44), rgba(246, 153, 58, 0.38));
+     color: white;
+      border-bottom: 5px solid;
+      border-right: 5px solid;
+      border-image: linear-gradient(to right, #161641, #1da1da, #362057, #7515a4) 1;
+     animation:  color 3s linear infinite;*/
+
+    border-radius: 5px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+@keyframes color {
+    0% {
+        border-color: #3498db;
+    }
+    25% {
+        border-color: #161641;
+    }
+    50% {
+        border-color:#362057;
+    }
+    75% {
+        border-color: #a10cde;
+    }
+    100% {
+        border-color: #ba90d0;
+    }
+}
+
+#section3ImgContainer {
+    float: left;
+    order: 2;
+
+}
+
+#PhoneAndDisplay {
+
+
+    width: 40vw;
+    height: auto;
+}
+
+.sectItem2{
+    order: 1;
+    margin-left: 3rem;
+
+}
+
+.sectItem2 h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.sectItem2 p{
+    padding-right: 3rem;
+    font-size: 1rem;
+}
+
+.sectItem2 p #subtitle{
+    font-size: 1.4rem;
+
+    line-height: 2rem;
+}
+
+
+.sectItem2 p #language{
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+#flags{
+    float: right;
+}
+#flagsImg{
+width: 8rem;
+    position: relative;
+    top: -35rem;
+    left: -8rem;
+
+}
+
+#section3Background{
+   /* position: absolute;
+    top: 190%;
+    left: 5%;
+    width: 70%;
+    height: 300px;
+    background-color: #c8aee1;
+    z-index: -1;
+
+    */
+}
+
 
