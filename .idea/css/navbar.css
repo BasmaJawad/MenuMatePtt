@@ -10,7 +10,7 @@ body{
     background-size: 400px;
 }
 
-p {
+p, footer {
     font-family: Futura, sans-serif;
 }
 
@@ -106,12 +106,14 @@ header nav li a:hover {
 
 
 footer{
-    background-color: #d3d1e7;
-    color: #fff;
-    padding: 2rem;
-    text-align: center;
-    font-size: 1.2rem;
+    background-color: rgba(189, 181, 169, 0.34);
+    color: black;
+    padding: 5rem;
+    padding-top: 8rem;
+    text-align: left;
+    font-size: 1rem;
     font-weight: lighter;
     margin-top: auto;
-    height: 12rem;
+    height: 10rem;
+    line-height: 3rem;
 }

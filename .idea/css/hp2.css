@@ -112,7 +112,7 @@
 #section3Wrapper {
     padding: 3rem;
 padding-right: 1rem;
-    padding-top: 3rem;
+    padding-top: 0;
     display: flex;
     justify-content: center;
     /* background: linear-gradient(to right, rgba(20, 20, 114, 0.44), rgba(246, 153, 58, 0.38));
@@ -198,7 +198,24 @@ width: 8rem;
     left: -8rem;
 
 }
+#section4Text{
+    padding: 0 10rem;
+}
 
+#section4wrapper h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-top: 6rem;
+}
+#section4wrapper{
+    background-color: rgba(255, 255, 255, 0.69);
+
+}
+
+#section4Text p{
+    font-size: 1.3rem;
+}
 #section3Background{
    /* position: absolute;
     top: 190%;
