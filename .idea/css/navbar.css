@@ -5,7 +5,7 @@ body{
     font-family: Baloo Bhaijaan, sans-serif;
 
     color: #01041e;
-   background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
+    background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
     background-repeat: repeat;
     background-size: 400px;
 }
@@ -22,10 +22,17 @@ header {
     z-index: 2;
     width: 100%;
     padding: 1rem;
-    background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/63733481369bfa6ae42fa610_Transparent-Texture.webp);
+    /*background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/63733481369bfa6ae42fa610_Transparent-Texture.webp);
     backdrop-filter: blur(20px);
 
     -webkit-backdrop-filter: blur(20px);
+
+     */
+
+    background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
+    background-repeat: repeat;
+    background-size: 200px;
+    opacity: 0.9;
 
 }
 
@@ -51,6 +58,8 @@ header .wrapper {
 header #logo {
     font-size: 40px;
     letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
 }
 
 /* Style the nav element */
@@ -106,7 +115,7 @@ header nav li a:hover {
 
 
 footer{
-    background-color: rgba(189, 181, 169, 0.34);
+    background-color: rgb(236, 233, 239);
     color: black;
     padding: 5rem;
     padding-top: 8rem;
@@ -116,4 +125,6 @@ footer{
     margin-top: auto;
     height: 10rem;
     line-height: 3rem;
+    position: absolute;
+    width: 90%;
 }

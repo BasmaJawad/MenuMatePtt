@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>menumate.dk</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contactForm.css">
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+        <a href="hp2.html" id="logo">MenuMate</a>
+        <nav>
+            <ul id="navbarWrapper">
+                <li><a href='#'>Priser & Services</a></li>
+                <li><a href='contactForm.html'>Kontakt os</a></li>
+                <li><a href='#'>Om Os</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<div id="rightWrapper">
+
+    <h1>Kontakt os</h1>
+
+    <div id="submitForm">
+
+        <form method="POST" action="https://formsubmit.co/3bcab70c982e85273ad22f25b5fd67d5"
+              enctype="multipart/form-data">
+            <input type="text" id="name" name="name" placeholder="Navn" required>
+
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <input type="text" id="restaurant" name="restaurant" placeholder="Restaurant" required>
+
+            <input type="file" id="attachment" name="attachment" placeholder="Restaurant Menu">
+
+            <textarea id="message" name="message" placeholder="Besked"></textarea>
+
+            <input type="hidden" name="_next" value="http://localhost:63342/MenuMatePrototype/.idea/html/hp2.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <button id="submitBtn" type="submit">
+                Send
+            </button>
+        </form>
+
+    </div>
+</div>
+
+<div id="imgWrapper">
+
+    <img src="../imgs/burger+drink.png" height="630" width="630"/>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="footerContainer">
+    <footer>
+        © 2023 Menumate. All rights reserved. <br>
+        Designed and developed by Menumate.
+
+    </footer>
+</div>
+
+</body>
+</html>
