@@ -2,7 +2,7 @@
 
     height: 35rem;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: grid;
     position: relative;
     place-items: center;
@@ -15,21 +15,33 @@
     display: flex;
     width: calc(15rem * 6);
     animation: scroll 20s linear infinite;
+
+
 }
 
 .slide{
     display: flex;
     align-items: center;
     padding: 1rem;
+    margin-left: 1.5rem;
+    border-radius: 0.8rem;
+
+   /* background: #302f6f;
+    box-shadow: inset 6px 6px 12px #1b1a3e,
+    inset -6px -6px 12px #4544a0;
+    padding: 1rem;
+    padding: 2rem;
+
+    */
 }
 
 .slide img{
     width: 25rem;
-    height: 20rem;
+    height: 22rem;
     object-fit: cover;
     transition: all 0.4s ease-out;
-    border-radius: 0.8rem;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0);
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.24);
 
 }
 

@@ -206,17 +206,27 @@ width: 8rem;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 #section4wrapper{
-    background-color: rgba(255, 255, 255, 0.69);
+   /* background: #302f6f;*/
 
+
+
+
+    color: black;
 }
 
 #section4Text p{
     font-size: 1.3rem;
 }
-#section3Background{
+#section3Background{ /* faktisk section 5*/
+
+    background-image: radial-gradient(circle farthest-side at 50% 100%, rgba(53, 28, 175, 0.68),rgba(245,244,241,0) 80%);
+    position: absolute;
+    top: 290%;
+    width: 100%;
+    height: 80rem;
    /* position: absolute;
     top: 190%;
     left: 5%;
@@ -227,5 +237,46 @@ width: 8rem;
 
     */
 }
+#section5Wrapper{
+
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 500px;
+
+}
+#displays{
+    position: absolute;
+    width: 35%;
+    left: 7rem;
+    margin-top: -4rem;
 
 
+}
+#displays img{
+
+    width: 100%;
+    height: auto;
+    float: left;
+
+
+
+}
+
+#section5Text{
+width: 46%;
+    margin-left: 47%;
+    padding-top: 4rem ;
+
+}
+
+#section5Text p {
+    font-size: 1.1rem;
+    margin-right: 3rem;
+}
+
+
+#section5Text h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}

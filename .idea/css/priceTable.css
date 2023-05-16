@@ -1,6 +1,6 @@
 #mainWrapper {
 
-    padding-top: 9rem;
+    padding-top: 1rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -9,34 +9,64 @@
     justify-content: center;
 }
 
+#imgTitleContainer{
+    display: flex;
+    justify-content: center;
+    allign-items: center;
+    padding: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#imgTitleContainer img{
+
+    width: 22rem;
+    height: auto;
+    margin: 2rem;
+    margn-top: 10rem;
+    margin-bottom: 0;
+    margin-right: 5rem;
+}
+
 #title{
     display: flex;
     flex-direction: column;
     text-align:  center;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 
 
 #title h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
+    margin-bottom: 0 ;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+#title p{
+    margin-top: 2rem;
+    margin-right: 30rem;
+    margin-left: 30rem ;
 
 }
 
 #priceTableContainer{
-
     display: flex;
     justify-content: center;
     allign-items: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     padding: 2rem;
-    column-gap: 1rem;
+    column-gap: 2rem;
 }
 
 .priceTable{
-    width: 25%;
+    width: 23%;
+    position: relative;
 
     border-radius: 10px;
     padding: 1rem;
@@ -74,11 +104,16 @@
 }
 
 .priceTable li{
-    padding-bottom: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 2.5rem;
-    border-bottom: 0.5px solid #e5e5e5;
+    padding: 0.8rem;
+    width: 80%;
+
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #e8e8e8,
+    inset -5px -5px 10px #ffffff;
 }
 
 .priceTable i{
@@ -112,6 +147,60 @@
 
 .table2{
     box-shadow: 0 0 30px rgba(4, 4, 143, 0.45);
+    color: white;
+    background-color: #302f6f;
 
 }
 
+.table2 li{
+    border: none;
+    border-radius: 5px;
+    background: #302f6f;
+    box-shadow: inset 6px 6px 12px #1b1a3e,
+    inset -6px -6px 12px #4544a0;
+    padding: 0.8rem;
+
+}
+.table2 a{
+    border-radius: 5px;
+    background: linear-gradient(145deg, #2b2a64, #333277);
+    box-shadow:  5px 5px 10px #1b1a3e,
+    -5px -5px 10px #4544a0;
+}
+
+.priceTable img{
+    height: 3rem;
+    width: auto;
+    position: absolute;
+    left: 28%;
+    opacity: 0.2;
+
+}
+
+#popular{
+    width: 100%;
+    background: linear-gradient(to right, #1d0b5e, #481172);
+    position: absolute;
+    left: 0;
+    top: -1rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+#backgroundImg {
+    width: 100%;
+    height: 95rem;
+   /* background: linear-gradient(to bottom, rgba(60, 22, 121, 0), rgba(30, 5, 73, 0.70), rgba(5, 14, 73, 0.76), rgba(30, 5, 73, 0.70), rgba(5, 14, 73, 0));
+    */
+    position: absolute;
+    background-image: radial-gradient(circle farthest-side at 50% 100%, rgba(53, 28, 175, 0.82),rgba(245,244,241,0) 80%);
+    top: 10%;
+    left: 0;
+    z-index: -1;
+
+
+}

@@ -7,7 +7,7 @@ body{
     color: #01041e;
     background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
     background-repeat: repeat;
-    background-size: 400px;
+    background-size: 300px;
 }
 
 p, footer {
@@ -56,7 +56,7 @@ header .wrapper {
 
 /* Style the logo element */
 header #logo {
-    font-size: 40px;
+    font-size: 2rem;
     letter-spacing: 1px;
     text-decoration: none;
     color: black;
@@ -78,8 +78,9 @@ header nav ul {
 
 /* Style the li elements inside the ul element */
 header nav li {
+    font-family: Futura, sans-serif;
     margin-left: 5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
 }
 
