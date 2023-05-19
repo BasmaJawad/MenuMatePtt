@@ -210,23 +210,20 @@ width: 8rem;
 }
 #section4wrapper{
    /* background: #302f6f;*/
-
-
-
-
     color: black;
 }
 
 #section4Text p{
     font-size: 1.3rem;
 }
-#section3Background{ /* faktisk section 5*/
+#section4Background{ /* faktisk section 5*/
 
     background-image: radial-gradient(circle farthest-side at 50% 100%, rgba(53, 28, 175, 0.68),rgba(245,244,241,0) 80%);
     position: absolute;
-    top: 290%;
+    top: 280%;
     width: 100%;
     height: 80rem;
+    z-index: -1;
    /* position: absolute;
     top: 190%;
     left: 5%;
