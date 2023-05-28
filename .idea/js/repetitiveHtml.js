@@ -2,7 +2,7 @@ const navbar = document.querySelector(".wrapper")
 const footer = document.getElementById("footerContainer")
 
 function navbarSetup(){
-    navbar.innerHTML = ' <a href=\'hp2.html\' id="logo">MenuMate</a>\n' +
+    navbar.innerHTML = ' <a href=\'hp2.html\' id="logo">Menyoo</a>\n' +
         '        <nav>\n' +
         '            <ul id="navbarWrapper">\n' +
         '                <li><a href=\'priceTable.html\'>Priser & Services</a></li>\n' +
