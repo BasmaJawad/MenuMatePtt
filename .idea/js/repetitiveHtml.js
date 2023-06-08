@@ -7,7 +7,7 @@ function navbarSetup(){
         '            <ul id="navbarWrapper">\n' +
         '                <li><a href=\'priceTable.html\'>Priser & Services</a></li>\n' +
         '                <li><a href=\'contactForm.html\'>Kontakt os</a></li>\n' +
-        '                <li><a href=\'#\'>Om Os</a></li>\n' +
+        '                <li><a href=\'aboutUs.html\'>Om Os</a></li>\n' +
         '            </ul>\n' +
         '        </nav>'
 
@@ -15,7 +15,7 @@ function navbarSetup(){
 
 function footerSetup(){
     footer.innerHTML = '    <footer>\n' +
-        '        © 2023 Menumate. All rights reserved. <br>\n' +
+        '        © 2023 Menyoo. All rights reserved. <br>\n' +
         '        Designed and developed by Menumate.\n' +
         '\n' +
         '    </footer>'
