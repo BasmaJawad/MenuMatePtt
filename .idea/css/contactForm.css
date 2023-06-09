@@ -138,7 +138,7 @@ textarea {
 
 
 button[type="submit"] {
-    background: #5f489f;
+    background: linear-gradient(to right, #3c1679, #7a15c6);
     border: none;
     border-radius: 5px;
     width: 20%;

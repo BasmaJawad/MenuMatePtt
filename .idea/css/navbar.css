@@ -8,6 +8,7 @@ body{
     background-image: url(https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/6373345a18c74273453603a7_Sand-Texture.webp);
     background-repeat: repeat;
     background-size: 300px;
+    overflow-x: hidden;
 }
 
 p, footer {
@@ -119,7 +120,7 @@ footer{
     background-color: rgb(236, 233, 239);
     color: black;
     padding: 5rem;
-    padding-top: 8rem;
+
     text-align: left;
     font-size: 1rem;
     font-weight: lighter;
@@ -129,3 +130,17 @@ footer{
     position: absolute;
     width: 90%;
 }
+
+ .logo {
+     font-family: Baloo Bhaijaan, sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+     position: relative;
+     float: right;
+     margin-top: 30px;
+     margin-right: 100px;
+}
+
+

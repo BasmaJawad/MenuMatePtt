@@ -1,5 +1,6 @@
 const navbar = document.querySelector(".wrapper")
 const footer = document.getElementById("footerContainer")
+const title = document.querySelector("title")
 
 function navbarSetup(){
     navbar.innerHTML = ' <a href=\'hp2.html\' id="logo">Menyoo</a>\n' +
@@ -14,12 +15,21 @@ function navbarSetup(){
 }
 
 function footerSetup(){
-    footer.innerHTML = '    <footer>\n' +
-        '        © 2023 Menyoo. All rights reserved. <br>\n' +
-        '        Designed and developed by Menumate.\n' +
-        '\n' +
-        '    </footer>'
+    footer.innerHTML = '<footer>' +
+        '    <div class="logo">Menyoo' +
+        '    </div>' +
+        '    <div class="clearfix"></div>' +
+        '    <p>&copy; 2023 Menyoo. Alle rettigheder forbeholdes.</p>' +
+        '    <p>Designet og udviklet af Menyoo.</p>' +
+        '</footer>';
+
+}
+
+function setTitle(){
+title.innerHTML = "Menyoo.dk"
+
 }
 
 navbarSetup()
 footerSetup()
+setTitle()

@@ -72,7 +72,7 @@
     padding: 1rem;
     padding-bottom: 3rem;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #f2f0ff;
     box-shadow: 10px 10px 30px rgba(121, 54, 204, 0.13);
 }
 
@@ -85,7 +85,7 @@
 .priceTable p{
     font-size: 4.5rem;
     margin: 0;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-bottom: 4rem;
 
 }
@@ -101,19 +101,28 @@
 .priceTable ul {
     text-align: left;
     list-style-type: none;
+    padding-left: 2rem;
 }
 
 .priceTable li{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-right: 2.5rem;
-    padding: 0.8rem;
-    width: 80%;
+    font-family: Futura, sans-serif;
+font-size: 15px;
+    margin-bottom: 1.4rem;
+
+    padding: 0.6rem;
+    width: 85%;
 
     border-radius: 5px;
-    background: #ffffff;
-    box-shadow: inset 5px 5px 10px #e8e8e8,
+
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+/*
+    background: #f2f0ff;
+    box-shadow: inset 5px 5px 10px #ceccd9,
     inset -5px -5px 10px #ffffff;
+
+ */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
 }
 
 .priceTable i{
@@ -153,12 +162,16 @@
 }
 
 .table2 li{
-    border: none;
-    border-radius: 5px;
+
+
+    /*
     background: #302f6f;
     box-shadow: inset 6px 6px 12px #1b1a3e,
     inset -6px -6px 12px #4544a0;
-    padding: 0.8rem;
+
+     */
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
 }
 .table2 a{
@@ -193,12 +206,12 @@
 
 #backgroundImg {
     width: 100%;
-    height: 95rem;
+    height: 120rem;
    /* background: linear-gradient(to bottom, rgba(60, 22, 121, 0), rgba(30, 5, 73, 0.70), rgba(5, 14, 73, 0.76), rgba(30, 5, 73, 0.70), rgba(5, 14, 73, 0));
     */
     position: absolute;
     background-image: radial-gradient(circle farthest-side at 50% 100%, rgba(53, 28, 175, 0.82),rgba(245,244,241,0) 80%);
-    top: 10%;
+    top: -10%;
     left: 0;
     z-index: -1;
 
